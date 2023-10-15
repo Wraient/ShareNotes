@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#dashboard {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#body-container {
+    text-align: center;
+    background-color: pink;
+    height: 2000px;
+    /* Adjust height as needed */
+}
+
+#content-container {
+    display: flex;
+    /* background-color: yellow; */
+    margin-left: 10%; /* Adjust margin as needed */
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 10px auto; /* Center horizontally */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+}
+
+#sidebar{
+    /* background-color : green; */
+    margin-left:10px;
+    width:26%;
+    text-align: left;
+    padding-top:20px;
+    margin-left:2%;
+    /* margin: 0 auto; Center horizontally */
+}
+
+.sidebar-container{
+    align-self: left;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-left: 5%; */
+    padding-left:6%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 20px;
+}
+
+.sidebar-title{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.sidebar-content{
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.post{
+    align-self: left;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-left: 5%; */
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 20px;
+}
+.profile{
+    display: flex;
+    margin-left:2%;
+    /* width:80%; */
+    /* background-color: violet;; */
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    /* background-color: aqua; */
+}
+stop
+.profile-name {
+    width: 100%;
+}
+
+.profile-username {
+    width: 100%;
+}
+
+.profile-pic {
+    width: 50px; /* Adjust the width of the profile picture */
+    height: 50px; /* Adjust the height of the profile picture */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Add some spacing */
+}
+
+.post-title{
+    margin:3% 0% 2% 0%;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bolder;
+    /* background-color: tomato; */
+}
+
+.post-content{
+    /* background-color: wheat; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-weight: 400;
+    font-weight: bolder;
+    height:100%;
+    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+}
+
+
+#feed {
+    text-align: left;
+    padding:20px;
+    /* display: inline-block; */
+    /* background-color: grey; */
+    width: 70%;
+    margin: 0 auto; /* Center horizontally */
+}
