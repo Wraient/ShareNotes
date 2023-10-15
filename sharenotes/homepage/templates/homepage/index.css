@@ -4,11 +4,68 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* .logo{
+    height: 50px;
+} */
+
+/* #dashboard {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+} */
 #dashboard {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    height:20%;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    /* width: auto; Adjust the width of the logo */
+    height: 50px; /*Maintain aspect ratio */
+}
+
+.search-bar-container {
+    flex: 1; /* Take up remaining space */
+    margin-right: 20px;
+}
+
+.search-bar{
+    padding-top:10px;
+    padding-left:5px;
+    width: 1000px;
+    padding-bottom:10px;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+
+#notifications {
+    background-color: blue;
+}
+
+#upload {
+    background-color: green;
+}
+
+#settings {
+    background-color: orange;
+}
+
+#account {
+    background-color: red;
 }
 
 #body-container {
@@ -25,7 +82,7 @@ body {
     width: 80%;
     height: 100%;
     text-align: center;
-    margin: 10px auto; /* Center horizontally */
+    margin: 0px auto; /* Center horizontally */
     padding: 20px;
     /* border: 1px solid #ccc; */
 }
@@ -88,19 +145,21 @@ body {
     /* padding-top: 20px; */
 }
 
+
 .profile-info {
     display: flex;
     flex-direction: column;
     width:80%;
     /* background-color: aqua; */
 }
-stop
+
 .profile-name {
     width: 100%;
 }
 
 .profile-username {
     width: 100%;
+    font-weight: bolder;
 }
 
 .profile-pic {
