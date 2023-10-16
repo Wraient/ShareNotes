@@ -24,10 +24,18 @@
             <input type="text" placeholder="Search" class="search-bar">
         </div>
         <div class="button"> 
-             <button id="notifications">Notifications</button>
-            <button id="upload">Upload</button>
-            <button id="settings">Settings</button>
-            <button id="account">Account</button>
+             <button id="notifications">
+                <img src="notifications.png" alt="notifications" class="notifications">
+             </button>
+             <button id="upload">
+                <img src="upload.png" alt="upload" class="upload">
+             </button>
+             <button id="settings">
+                <img src="settings.png" alt="settings" class="settings">
+             </button>
+             <button id="account">
+                <img src="account.png" alt="account" class="account">
+             </button>
         </div>
     </div>
         <!-- <h1>Dashboard</h1> -->
@@ -41,155 +49,35 @@
                     <div class="profile">
                         <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
                         <div class="profile-info">
-                            <div class="profile-name">Rushikesh Gaikwad</div>
-                            <div class="profile-username">@Gay_Rushi</div>
+                            <div class="profile-name">{{ first_name }} {{ last_name }}</div>
+                            <div class="profile-username">{{ username }}</div>
                         </div>
                         <div class="time">
-                            1 day ago
+                            {{ time}}
                         </div>
                     </div>
                     <div class="post-title">
-                        WHO IS GAY
+                        {{ post_title}}
                     </div>
                     <div class="post-content">
-                        VEDUUUUU!!!
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="profile">
-                        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                        <div class="profile-info">
-                            <div class="profile-name">Vedant Deshmukh</div>
-                            <div class="profile-username">@God_Vedant</div>
-                        </div>
-                        <div class="time">
-                            2 sec ago
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        WHO IS GOD
-                    </div>
-                    <div class="post-content">
-                        VEDANT!!!
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="profile">
-                        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                        <div class="profile-info">
-                            <div class="profile-name">FirstName LastName</div>
-                            <div class="profile-username">@username</div>
-                        </div>
-                        <div class="time">
-                            1 hour ago
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        Post Title
-                    </div>
-                    <div class="post-content">
-                        Post Content
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="profile">
-                        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                        <div class="profile-info">
-                            <div class="profile-name">FirstName LastName</div>
-                            <div class="profile-username">@username</div>
-                        </div>
-                        <div class="time">
-                            1 hour ago
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        Post Title
-                    </div>
-                    <div class="post-content">
-                        Post Content
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="profile">
-                        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                        <div class="profile-info">
-                            <div class="profile-name">FirstName LastName</div>
-                            <div class="profile-username">@username</div>
-                        </div>
-                        <div class="time">
-                            1 hour ago
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        Post Title
-                    </div>
-                    <div class="post-content">
-                        Post Content
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="profile">
-                        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-                        <div class="profile-info">
-                            <div class="profile-name">FirstName LastName</div>
-                            <div class="profile-username">@username</div>
-                        </div>
-                        <div class="time">
-                            1 hour ago
-                        </div>
-                    </div>
-                    <div class="post-title">
-                        Post Title
-                    </div>
-                    <div class="post-content">
-                        Post Content
+                        {{ post_content }}
                     </div>
                 </div>
                 <!-- Add more posts if needed -->
             </div>
             <div id="sidebar">
                 <h2>Sidebar Section</h2>
-                <div class="sidebar-container">
-                    <div class="sidebar-title">
-                        Sidebar Title
-                    </div>
-                    <div class="sidebar-content">
-                        Sidebar Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sint? Lorem ipsum dolor sit amet.
-                    </div>
-                </div>
-                <div class="sidebar-container">
-                    <div class="sidebar-title">
-                        Sidebar Title
-                    </div>
-                    <div class="sidebar-content">
-                        Sidebar Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sint? Lorem ipsum dolor sit amet.
-                    </div>
-                </div>
-                <div class="sidebar-container">
-                    <div class="sidebar-title">
-                        Sidebar Title
-                    </div>
-                    <div class="sidebar-content">
-                        Sidebar Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sint? Lorem ipsum dolor sit amet.
-                    </div>
-                </div>
-                <div class="sidebar-container">
-                    <div class="sidebar-title">
-                        Sidebar Title
-                    </div>
-                    <div class="sidebar-content">
-                        Sidebar Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sint? Lorem ipsum dolor sit amet.
-                    </div>
-                </div>
-                <div class="sidebar-container">
-                    <div class="sidebar-title">
-                        Sidebar Title
-                    </div>
-                    <div class="sidebar-content">
-                        Sidebar Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, sint? Lorem ipsum dolor sit amet.
-                    </div>
-                </div>
                 <!-- Add your sidebar content here -->
+                
+                <div class="sidebar-container">
+                    <div class="sidebar-title">
+                        {{ sidebar_title }}
+                    </div>
+                    <div class="sidebar-content">
+                        {{ sidebar_content }}
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

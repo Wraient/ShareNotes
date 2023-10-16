@@ -54,24 +54,27 @@ body {
 }
 
 .buttons button {
+    background-color: inherit;
     margin-right: 10px;
 }
 
-#notifications {
-    background-color: blue;
+.notifications{
+    width:40px;
+    height:40px
+}
+.account{
+    width:40px;
+    height:40px
+}
+.settings{
+    width:40px;
+    height:40px
+}
+.upload{
+    width:40px;
+    height:40px
 }
 
-#upload {
-    background-color: green;
-}
-
-#settings {
-    background-color: orange;
-}
-
-#account {
-    background-color: red;
-}
 
 #body-container {
     text-align: center;
