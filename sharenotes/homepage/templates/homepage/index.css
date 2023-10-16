@@ -9,7 +9,7 @@ body {
 } */
 
 /* #dashboard {
-    background-color: #333;
+    background-color: grey;
     color: #fff;
     padding: 10px;
     display:flex;
@@ -18,7 +18,7 @@ body {
 
 } */
 #dashboard {
-    background-color: #333;
+    background-color: grey;
     color: #fff;
     padding: 10px;
     height:20%;
@@ -70,7 +70,7 @@ body {
 
 #body-container {
     text-align: center;
-    background-color: pink;
+    background-color: 404040; 
     height: 2000px;
     /* Adjust height as needed */
 }
