@@ -153,6 +153,20 @@ body {
     /* padding-top: 20px; */
 }
 
+.college-data{
+    font-weight: 500;
+    display: flex;
+}
+
+.college-name {
+    margin-right:10px;
+}
+.subject{
+    margin-right:10px;
+}
+.chapter{
+    margin-right:10px;
+}
 
 .profile-info {
     display: flex;

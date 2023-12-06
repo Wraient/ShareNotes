@@ -4,6 +4,10 @@ import os
 import sys
 
 
+# Superuser ID:
+# Username : wraient
+# Password : rushi
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sharenotes.settings')

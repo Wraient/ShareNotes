@@ -8,6 +8,9 @@ def index(request):
         "last_name": "Doe",
         "username": "@johndoe",
         "time": "1 hour ago",
+        "college_name": "ADYPSOE",
+        "subject": "BEE",
+        "chapter":"Unit-1",
         "post_title": "How to make a website",
         "post_content": "This is how you make a website.",
     })

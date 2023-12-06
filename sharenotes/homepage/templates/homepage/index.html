@@ -52,7 +52,21 @@
                         <img src="{% static 'homepage/img/profile-pic.jpg' %}" alt="Profile Picture" class="profile-pic">
                         <div class="profile-info">
                             <div class="profile-name">{{ first_name }} {{ last_name }}</div>
-                            <div class="profile-username">{{ username }}</div>
+                            <!-- <div class="profile-username">{{ username }}</div> -->
+                            <div class="college-data">
+                                <div class="college-name">
+                                    <!-- ADYPSOE  -->
+                                    {{ college_name }}
+                                </div>
+                                <div class="subject">
+                                    <!-- BEE -->
+                                    {{ subject }}
+                                </div>
+                                <div class="chapter">
+                                    <!-- Unit - 1 -->
+                                    {{ chapter }}
+                                </div>
+                            </div>
                         </div>
                         <div class="time">
                             {{ time }}
